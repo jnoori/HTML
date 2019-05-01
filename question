@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+		<link rel="manifest" href="../favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<meta charset="utf-8">
+		<title>question</title>
+	</head>
+	<body>
+		<!--questions-->
+		<h1>Questions:</h1>
+		<p><a id="q1" href="#a1">1. Which country has recently banned four federation to host International tournament?</a></p>
+		<p><a id="q2" href="#a2">2. Who is designed Tokyo 2020 Olympic and Paralympics emblems?</a></p>
+		<p><a id="q3" href="#a3">3. The 2020 Summer Olympic will be held in which city?</a></p>
+		<p><a id="q4" href="#a4">4. Which player equals world record in recurve event at Archery World Cup?</a></p>
+		<p><a id="q5" href="#a5">5. Who has made the fastest century in cricket history?</a></p>
+		<!--answers-->
+		<h1>Answers:</h1>
+		<p><a id="a1" href="#q1" >1. South Africa</a></p>
+		<p><a id="a2" href="#q2">2. Asao Tokolo</a></p>
+		<p><a id="a3" href="#q3">3. Tokyo</a></p>
+		<p>
+			<a id="a4" href="#q4" title="Iraq Thomas">4. Deepika Kumari <br>
+				<img src="../img/Thomas.jpg" alt="Iraq Thomas" style="width: 100px; height: 100px;">
+			</a></p>
+		<p><a id="a5" href="#q5">5. Iraq Thomas</a></p>
+	</body>
+</html>
