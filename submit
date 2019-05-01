@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>submit</title>
+</head>
+<body>
+	<form action="https://www.google.ca">
+	   <button type="submit">go to google!</button>
+	   <input type="submit">
+	</form>
+</body>
+</html>
