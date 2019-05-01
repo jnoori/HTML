@@ -6,7 +6,7 @@
 </head>
 <body>
 	<!--table-->
-<table border="10" cellpadding="5" cellspacing="5" bordercolor="green" bgcolor="yellow" >
+<table border="10" width="500" height="300" cellpadding="5" cellspacing="1" bordercolor="green" background="../img/smile.png" >
 <tr>
 	<!-- table header -->
 	<th>Column 1</th>
