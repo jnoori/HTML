@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{
+			margin:0;
+			box-sizing:border-box;
+			font-family:sans-serif;
+		}
+		ul{
+			list-style-type:none;
+			width:30%;
+			margin:30px auto;
+		}
+		ul li{
+			width:33.33%;
+			display:inline-block;
+			text-align:center;
+		}
+		
+		a{	
+			display:inline-block;
+			background-color:darkcyan;
+			color:white;
+			text-decoration:none;
+			padding:10px 15px;
+			border-radius:5px;
+		}
+
+		a:hover{
+			background-color:darkslategrey;
+		}
+
+		.background{
+			background-image:url("images/mountain.jpg");
+			height:300px;
+			background-size:cover;
+			background-attachment:fixed;
+		}
+
+		article{
+			background-color:whitesmoke;
+			width:400px;
+			min-width:300px;
+			padding:30px 15px;
+			color:grey;
+			margin:8px;
+			box-shadow:0px 20px 30px 10px rgba(150,160,170,.3);
+		}
+
+		article h2{
+			text-align:center;
+		}
+
+		figure{
+			overflow:hidden;
+			width:200px;
+			height:200px;
+			margin:0 auto;
+		}
+
+		figure img{
+			width:400px;
+		}
+
+		main.flex{
+			margin:50px 0px;
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:space-around;
+		}
+
+		section.contact{
+			width:30%;
+			margin:50px auto;
+			border:3px solid lightblue;
+			border-radius:10px;
+			padding:30px;
+		}
+
+		section.contact form{
+			display:flex;
+			flex-flow:column wrap;
+			align-items:center;
+		}
+
+		.input-control, textarea{
+			background-color:whitesmoke;
+			width:50%;
+			border:0;
+			margin:10px;
+			padding:8px 16px;
+			border-radius:10px;
+			transition:background-color .8s;
+			color:grey;
+		}
+
+		.button-control{
+			margin:10px;
+			padding:8px 16px;
+			background-color:lightcoral;
+			border:0;
+			color:white;
+			border-radius:10px;
+			font-variant: small-caps;
+			cursor:pointer;
+			transition:background-color .8s,
+						box-shadow .5s,
+						transform .5s;
+		}
+
+		::placeholder{
+			color:lightgrey;
+		}
+
+		input.button-control:hover{
+			transform:scale(1.1);
+			background-color:coral;
+			box-shadow:0px 10px 20px -9px lightcoral;
+		}
+
+		textarea:focus, input:focus{
+			background-color:grey;
+			outline:none;
+			color:white;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="">Home</a></li><li><a href="">Gallery</a></li><li><a href="">About</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="background"></section>
+	<main class="flex">
+		<article>
+			<figure>
+				<img src="images/profile.jpg" alt="">
+			</figure>
+			<h2>Lorem ipsum dolor sit.</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea a, rem itaque culpa doloribus accusamus eligendi consectetur, quis illo nostrum iusto vel, molestiae perspiciatis ab harum maxime earum sint quas.</p><p>Amet, hic nam eveniet dicta, nulla quia! Accusantium impedit in fugiat similique recusandae sunt officiis laborum! Deleniti soluta magni quia consequuntur tenetur, sit architecto vel, iure praesentium eligendi hic dolores!</p>
+		</article>
+		<article>
+			<figure>
+				<img src="images/profile.jpg" alt="">
+			</figure>
+			<h2>Lorem ipsum dolor sit.</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea a, rem itaque culpa doloribus accusamus eligendi consectetur, quis illo nostrum iusto vel, molestiae perspiciatis ab harum maxime earum sint quas.</p><p>Amet, hic nam eveniet dicta, nulla quia! Accusantium impedit in fugiat similique recusandae sunt officiis laborum! Deleniti soluta magni quia consequuntur tenetur, sit architecto vel, iure praesentium eligendi hic dolores!</p>
+		</article>
+		<article>
+			<figure>
+				<img src="images/profile.jpg" alt="">
+			</figure>
+			<h2>Lorem ipsum dolor sit.</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea a, rem itaque culpa doloribus accusamus eligendi consectetur, quis illo nostrum iusto vel, molestiae perspiciatis ab harum maxime earum sint quas.</p><p>Amet, hic nam eveniet dicta, nulla quia! Accusantium impedit in fugiat similique recusandae sunt officiis laborum! Deleniti soluta magni quia consequuntur tenetur, sit architecto vel, iure praesentium eligendi hic dolores!</p>
+		</article>
+	</main>
+
+	<section class="contact">
+		<form action="">
+			<label for="name"></label>
+			<input type="text" name="" id="name" class="input-control" placeholder="Contact name">
+			<label for="email"></label>
+			<input type="email" name="" id="email" class="input-control" placeholder="Contact email">
+			<label for="msg"></label>
+			<textarea name="" id="msg" placeholder="Your message..."></textarea>
+			<input type="submit" value="send" id="send" class="button-control">
+		</form>
+	</section>
+</body>
+</html>
